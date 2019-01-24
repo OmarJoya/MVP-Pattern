@@ -20,7 +20,7 @@ public class ApplicationModule {
 
     @Provides
     @Singleton //instance should be created only once
-    public Context provideContext(){
+    public Context provideContext() {
         return application;
     }
 }
