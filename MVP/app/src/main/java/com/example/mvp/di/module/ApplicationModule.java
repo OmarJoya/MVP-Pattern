@@ -1,4 +1,4 @@
-package com.example.mvp;
+package com.example.mvp.di.module;
 
 import android.app.Application;
 import android.content.Context;

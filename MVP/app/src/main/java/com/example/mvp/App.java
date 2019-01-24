@@ -2,6 +2,9 @@ package com.example.mvp;
 
 import android.app.Application;
 
+import com.example.mvp.di.component.ApplicationComponent;
+import com.example.mvp.di.module.ApplicationModule;
+
 public class App extends Application {
     //Class where dagger will live throughout the entire life of the application
 
