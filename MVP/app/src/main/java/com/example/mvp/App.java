@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.example.mvp.di.component.ApplicationComponent;
 import com.example.mvp.di.module.ApplicationModule;
+import com.example.mvp.ui.login.LoginModule;
 
 public class App extends Application {
     //Class where dagger will live throughout the entire life of the application
@@ -18,6 +19,7 @@ public class App extends Application {
         component = DaggerApplicationComponent
                 .builder()
                 .applicationModule(new ApplicationModule(this))
+                .loginModule(new LoginModule())
                 .build();
     }
 
